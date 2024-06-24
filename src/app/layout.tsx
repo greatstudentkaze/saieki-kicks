@@ -19,7 +19,7 @@ const RootLayout = ({
 }>) => {
     return (
         <html lang="ru">
-            <body className={cn('min-h-screen bg-background font-sans antialiased cursor-default', inter.variable)}>
+            <body className={cn('min-h-dvh bg-background font-sans antialiased cursor-default', inter.variable)}>
                 <div className={cn('px-8 py-12 md:p-24', 'flex min-h-screen flex-col items-center gap-24')}>
                     <header>
                         <Link className="relative block text-center" href="/">
