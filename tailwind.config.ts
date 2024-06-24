@@ -19,6 +19,9 @@ const config = {
       },
     },
     extend: {
+      textColor: {
+        poizon: '#00feff',
+      },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
